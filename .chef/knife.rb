@@ -1,0 +1,9 @@
+log_level                :info
+log_location             STDOUT
+node_name                'jroberts'
+client_key               '/home/jroberts/chef-repo/.chef/jroberts.pem'
+validation_client_name   'chef-validator'
+validation_key           '/home/jroberts/chef-repo/.chef/validation.pem'
+chef_server_url          'https://chefserver.local'
+syntax_check_cache_path  '/home/jroberts/chef-repo/.chef/syntax_check_cache'
+cookbook_path		 '/home/jroberts/chef-repo/'
